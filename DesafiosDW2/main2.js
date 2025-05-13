@@ -1,8 +1,11 @@
 
-
-
-//___________DESAFIO 4___________
-const sumarProd=(precioUn, cantDes)=> precioUn*cantDes
-let canti=prompt("Ingrese precio unitario")
-let precioUnitario=prompt("Ingrese la cant deseada")
-console.log(`El total es de: ${sumarProd(precioUnitario,canti)}`)
+//__________________DESAFIO 5____________________________
+let produc=["Heladera", "Lavarropas", "Laptop"]
+console.log(produc)
+for(let pro of produc){
+    console.log(produc[pro])
+}
+produc.push("Pava electrica")
+console.log(produc)
+produc.pop()
+console.log(produc)
