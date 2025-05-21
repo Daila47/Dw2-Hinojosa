@@ -30,3 +30,4 @@ produc.push("Pava electrica")
 console.log(produc)
 produc.pop()
 console.log(produc)
+
